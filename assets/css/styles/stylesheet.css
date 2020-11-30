@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.banner {
+    display: none;
+    color: white  
+}
+
+.img-info {
+    width: 100%;
+}
+
+.img-info h2 {
+    padding: 30px 30px 20px;
+    font-family: 'Impress BT';
+    font-size: 50px;
+    color: #C8A2C8;
+    line-height: 44px;
+}
+
+.img-info h1 {
+    padding: 30px 30px 20px;
+    font-family: 'Impress BT';
+    font-size: 50px;
+    color: #C8A2C8;
+    line-height: 44px;
+}
+
+.img-info p {
+    padding: 0px 30px 20px;
+    font-family: 'Impress BT';
+    font-size: 16px;
+    color: #C8A2C8;
+    line-height: 24px;
+}
+
+.img-Destiny {
+    width: 30%;    
+}
+
+@media only screen and (min-width: 768px) {
+    .banner {
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .wrapper {
+    width: 600px;
+    margin: 0 auto;
+    }
+
+    .img-info h2 {
+    padding: 20px 0px 0px;
+    }
+
+    .img-info h1 {
+    padding: 20px 0px 0px;
+    }
+
+    .img-info p {
+    padding: 20px 0px 0px;
+    }
+
+    .img-Destiny {
+    padding-top: 30px;
+    }
+
+    .abtme {
+        
+    width: 600px;
+    margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .wrapper {
+    width: 1000px;
+    }
+
+    .img-info p {
+        float: left;
+    }
+
+    .img-Destiny {
+    padding-top: 0px;
+    width: 300px;
+    float: right;
+    }
+
+    .img-info h2 {
+        width: 50%;
+        float: center;
+    }
+    .abtme {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+:root { font: 20px/1.2 "Impress BT", arial; }
+
+body {
+            
+
+            margin:         1;
+            box-sizing:     1;
+            padding:        1;
+            font-size:      20px;
+            background: url(../../img/bg/bg.png) fixed center;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            width: auto;
+            height: auto;
+            min-width: 100%;
+            min-height: 100%;
+            color: #C8A2C8;
+            font-family: 'Impress BT', Arial, sans-serif;
+            font-weight:normal;
+            font-style:normal;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+}
+
+.Zachary {
+    color: #C8A2C8;
+    text-decoration: none;
+}
+
+.CbTG{
+    color: #00FFFF;
+    font-family: 'Impress BT';
+    font-size: 30px;
+}
+
+.deat {
+    color: #C8A2C8
+}
+
+.news-content {
+    color: #C8A2C8
+}
+
+.gf {
+    display: block;
+    border-style: none;
+    color: white;
+}
+
+.silver-box {
+    background-color: silver;
+    color: black;
+    height: 1400px;
+    width: 640px;
+}
+
+.Discord {
+    float: middle-center;
+}
+
+.Counter {
+    float: middle-center;
+}
+
+.nav-block {
+    background-color: #1F2E4B;
+    width: auto;
+    height: 40px;
+
+}
+
+.nav-links {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    vertical-align: left;
+    float: left;
+    font-family: arial;
+}
+
+.nav-icon {
+    color: white;
+    vertical-align: left;
+    float: left;
+}
+
+
+.twitter-footer {
+    color: white;
+}
+
+.gmail-footer {
+    color: white
+}
+
+.links-footer {
+    background-color: #1F2E4B;
+    color: white;
+}
+
+.contact-me {
+    background-color: #1F2E4B;
+    color: white;
+}
+
+.body-block {
+    background-color: #1F2E4B;
+    color: white;
+}
+
+.img-TBG {
+    background-color: white;
+    color: black;
+    float: left;
+    width: 300px;
+    height: 500px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+}
